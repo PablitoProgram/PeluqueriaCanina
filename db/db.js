@@ -53,7 +53,7 @@ const connection = mySql.createConnection(
                     mail VARCHAR(255) NOT NULL,
                     nombrePerro VARCHAR(100) NOT NULL,
                     raza VARCHAR(100) NOT NULL,
-                    color VARCHAR(100) NOT NULL,
+                    color VARCHAR(100) NOT NULL
                 );            
             `;
             connection.query(createTableQuery,(err,results) =>
